@@ -1,0 +1,12 @@
+Algorithme					paire_ou_impaire;
+Var
+	n:entiers
+Debut
+	Ecrire"Entrer un entier";
+	Lire n;
+	Si n mod 2=0 alors
+		Ecrire"Le nombre est paire";
+	Sinon si n mod 2˂˃0 alors
+		Ecrire"Le nombres est impaire"
+	Finsi
+Fin
