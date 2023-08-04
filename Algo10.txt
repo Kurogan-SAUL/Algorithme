@@ -1,0 +1,18 @@
+Algorithme					minimum;
+Var
+	min,a,b,c:entiers;
+Debut
+	Ecrire"Enter trois nombres entiers";
+	Lire a,b,c;
+	Si a˃b alors
+		min→b;
+	Sinon
+		min→a;
+	Fin si
+	Si min˃c alors
+		min→c;
+	Sinon
+		min→min
+	Fin si
+	Ecrire"Le nombre minimal est:",min;
+Fin
