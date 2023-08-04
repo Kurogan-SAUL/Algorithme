@@ -1,0 +1,10 @@
+Algorithme				Bonjour;
+Var
+	n:entiers;
+Debut
+	n←0
+	Tantque n˂=10 faire
+		n←n+1;
+		Ecire"Bonjour";
+	Fintantque
+Fin
