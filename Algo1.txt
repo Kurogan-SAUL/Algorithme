@@ -1,0 +1,13 @@
+Algorithme                             				   somme;
+Var
+	a,n:entiers;
+Debut
+	a← 0
+	Ecrire"Entrer un nombre";
+	Lire n;
+	Repeter
+		a← a+1;
+		n← a+n;
+		Ecrire n;
+	Jusqu'a a=10
+Fin
