@@ -1,0 +1,11 @@
+Algorithme					echange;
+Var
+	tmp,a,b: entiers;
+Debut
+	Ecire"Entrer deux nombres entires";
+	Lire a,b;
+	tmp← a;
+	a← b;
+	b← tmp;
+	Ecrire"Le nombre a devient",a,"et le nombre b devient",b;
+Fin
