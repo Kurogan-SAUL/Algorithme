@@ -1,0 +1,8 @@
+Algorithme					Produit;
+Var
+	a,b: entiers;
+Debut
+	Ecire"Entrer deu nombres entires";
+	Lire a,b;
+	Ecrire"Le produit est:",a*b;
+Fin
