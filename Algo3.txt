@@ -1,0 +1,6 @@
+Algorithme				Bonjour;
+Var
+
+Debut
+	Ecire"Bonjour";
+Fin
