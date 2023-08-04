@@ -1,0 +1,18 @@
+Algorithme					maximum;
+Var
+	max,a,b,c:entiers;
+Debut
+	Ecrire"Enter trois nombres entiers";
+	Lire a,b,c;
+	Si a˃b alors
+		max→a;
+	Sinon
+		max→b;
+	Fin si
+	Si max˃c alors
+		max→max;
+	Sinon
+		max→c
+	Fin si
+	Ecrire"Le nombre maximal est:",max;
+Fin
